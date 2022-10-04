@@ -6,7 +6,7 @@
 #
 Name     : tar
 Version  : 1.34
-Release  : 36
+Release  : 37
 URL      : https://mirrors.kernel.org/gnu/tar/tar-1.34.tar.xz
 Source0  : https://mirrors.kernel.org/gnu/tar/tar-1.34.tar.xz
 Source1  : https://mirrors.kernel.org/gnu/tar/tar-1.34.tar.xz.sig
@@ -103,12 +103,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1613506297
+export SOURCE_DATE_EPOCH=1664904265
 export GCC_IGNORE_WERROR=1
-export CFLAGS="$CFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
-export FCFLAGS="$FFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
-export FFLAGS="$FFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
-export CXXFLAGS="$CXXFLAGS -fno-lto -fstack-protector-strong -fzero-call-used-regs=used "
+export CFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
+export CXXFLAGS="$CXXFLAGS -fno-lto "
 %reconfigure --disable-static
 make  %{?_smp_mflags}
 
@@ -120,10 +120,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1613506297
+export SOURCE_DATE_EPOCH=1664904265
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/tar
-cp %{_builddir}/tar-1.34/COPYING %{buildroot}/usr/share/package-licenses/tar/8624bcdae55baeef00cd11d5dfcfa60f68710a02
+cp %{_builddir}/tar-%{version}/COPYING %{buildroot}/usr/share/package-licenses/tar/8624bcdae55baeef00cd11d5dfcfa60f68710a02 || :
 %make_install
 %find_lang tar
 

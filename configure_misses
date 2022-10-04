@@ -1,40 +1,39 @@
-Configure miss: whether the compiler is clang
+Configure miss: 32-bit host C ABI
+Configure miss: ACL_TYPE_EXTENDED
+Configure miss: CFLocaleCopyPreferredLanguages
+Configure miss: __mktime_internal
+Configure miss: __xpg4
+Configure miss: acl_copy_ext_native
+Configure miss: acl_create_entry_np
+Configure miss: acl_delete_fd_np
+Configure miss: acl_delete_file_np
+Configure miss: acl_free_text
+Configure miss: acl_to_short_text
 Configure miss: compiler option needed when checking for declarations
+Configure miss: crtdefs.h
+Configure miss: gcc options needed to detect all undeclared functions
+Configure miss: getppriv
+Configure miss: library containing setfilecon
+Configure miss: linewrap.h
+Configure miss: major_t
+Configure miss: minor_t
+Configure miss: obstacks that work with any size object
+Configure miss: priv.h
+Configure miss: remote shell
+Configure miss: selinux/flask.h
+Configure miss: selinux/selinux.h
+Configure miss: st_fstype string in struct stat
+Configure miss: sys/buf.h
 Configure miss: sys/device.h
 Configure miss: sys/gentape.h
 Configure miss: sys/inet.h
 Configure miss: sys/io/trioctl.h
-Configure miss: sys/tprintf.h
 Configure miss: sys/tape.h
-Configure miss: linewrap.h
-Configure miss: crtdefs.h
-Configure miss: priv.h
-Configure miss: selinux/selinux.h
-Configure miss: sys/buf.h
-Configure miss: st_fstype string in struct stat
-Configure miss: library containing acl_get_file
-Configure miss: major_t
-Configure miss: minor_t
-Configure miss: gcc options needed to detect all undeclared functions
-Configure miss: whether the compiler produces multi-arch binaries
-Configure miss: library containing setfilecon
-Configure miss: facl
-Configure miss: getacl
-Configure miss: aclv.h
-Configure miss: aclx_get
-Configure miss: statacl
-Configure miss: aclsort
-Configure miss: whether this system supports file names of any length
-Configure miss: whether fchmodat+AT_SYMLINK_NOFOLLOW works on non-symlinks
-Configure miss: whether free is known to preserve errno
-Configure miss: __xpg4
+Configure miss: sys/tprintf.h
+Configure miss: timezone_t
 Configure miss: whether link(2) dereferences a symlink
 Configure miss: whether mbrtowc stores incomplete characters
-Configure miss: obstacks that work with any size object
-Configure miss: getppriv
+Configure miss: whether the compiler is clang
+Configure miss: whether the compiler produces multi-arch binaries
+Configure miss: whether this system supports file names of any length
 Configure miss: working re_compile_pattern
-Configure miss: selinux/flask.h
-Configure miss: timezone_t
-Configure miss: remote shell
-Configure miss: 32-bit host C ABI
-Configure miss: CFLocaleCopyPreferredLanguages
