@@ -1,39 +1,106 @@
 Configure miss: 32-bit host C ABI
+Configure miss: 32-bit host C ABI
+Configure miss: ACL_TYPE_EXTENDED
 Configure miss: ACL_TYPE_EXTENDED
 Configure miss: CFLocaleCopyPreferredLanguages
+Configure miss: CFLocaleCopyPreferredLanguages
+Configure miss: __mktime_internal
 Configure miss: __mktime_internal
 Configure miss: __xpg4
+Configure miss: __xpg4
+Configure miss: _fseeki64
+Configure miss: _fseeki64
+Configure miss: acl_copy_ext_native
 Configure miss: acl_copy_ext_native
 Configure miss: acl_create_entry_np
+Configure miss: acl_create_entry_np
+Configure miss: acl_delete_fd_np
 Configure miss: acl_delete_fd_np
 Configure miss: acl_delete_file_np
+Configure miss: acl_delete_file_np
+Configure miss: acl_free_text
 Configure miss: acl_free_text
 Configure miss: acl_to_short_text
+Configure miss: acl_to_short_text
+Configure miss: bool, true, false
+Configure miss: bool, true, false
 Configure miss: compiler option needed when checking for declarations
+Configure miss: compiler option needed when checking for declarations
+Configure miss: compiler option needed when checking for future declarations
+Configure miss: compiler option needed when checking for future declarations
 Configure miss: crtdefs.h
+Configure miss: crtdefs.h
+Configure miss: gcc option for timestamps after 2038
+Configure miss: gcc option for timestamps after 2038
+Configure miss: gcc option to enable large file support
+Configure miss: gcc option to enable large file support
+Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: getppriv
+Configure miss: getppriv
+Configure miss: library containing setfilecon
 Configure miss: library containing setfilecon
 Configure miss: linewrap.h
+Configure miss: linewrap.h
+Configure miss: major_t
 Configure miss: major_t
 Configure miss: minor_t
+Configure miss: minor_t
+Configure miss: obstacks that work with any size object
 Configure miss: obstacks that work with any size object
 Configure miss: priv.h
+Configure miss: priv.h
+Configure miss: remote shell
 Configure miss: remote shell
 Configure miss: selinux/flask.h
+Configure miss: selinux/flask.h
+Configure miss: selinux/selinux.h
 Configure miss: selinux/selinux.h
 Configure miss: st_fstype string in struct stat
+Configure miss: st_fstype string in struct stat
+Configure miss: stdckdint.h
+Configure miss: stdckdint.h
+Configure miss: sys/buf.h
 Configure miss: sys/buf.h
 Configure miss: sys/device.h
+Configure miss: sys/device.h
+Configure miss: sys/gentape.h
 Configure miss: sys/gentape.h
 Configure miss: sys/inet.h
+Configure miss: sys/inet.h
+Configure miss: sys/io/trioctl.h
 Configure miss: sys/io/trioctl.h
 Configure miss: sys/tape.h
+Configure miss: sys/tape.h
+Configure miss: sys/tprintf.h
 Configure miss: sys/tprintf.h
 Configure miss: timezone_t
+Configure miss: timezone_t
+Configure miss: unreachable
+Configure miss: unreachable
+Configure miss: whether SEEK_DATA works but is incompatible with GNU
+Configure miss: whether SEEK_DATA works but is incompatible with GNU
+Configure miss: whether btowc is consistent with mbrtowc in the C locale
+Configure miss: whether btowc is consistent with mbrtowc in the C locale
+Configure miss: whether ctype.h defines __header_inline
+Configure miss: whether ctype.h defines __header_inline
+Configure miss: whether fflush works on input streams
+Configure miss: whether fflush works on input streams
+Configure miss: whether link(2) dereferences a symlink
 Configure miss: whether link(2) dereferences a symlink
 Configure miss: whether mbrtowc stores incomplete characters
+Configure miss: whether mbrtowc stores incomplete characters
+Configure miss: whether strtol works
+Configure miss: whether strtol works
+Configure miss: whether strtoll works
+Configure miss: whether strtoll works
+Configure miss: whether strtoul works
+Configure miss: whether strtoul works
+Configure miss: whether strtoull works
+Configure miss: whether strtoull works
+Configure miss: whether the compiler is clang
 Configure miss: whether the compiler is clang
 Configure miss: whether the compiler produces multi-arch binaries
+Configure miss: whether the compiler produces multi-arch binaries
 Configure miss: whether this system supports file names of any length
-Configure miss: working re_compile_pattern
+Configure miss: whether this system supports file names of any length
